@@ -1,6 +1,6 @@
 """Let's write some basic stuff in Python 3.x"""
 # When ever you are writing functions in Python, make function name in lower case itself else python raises PEP8 Error though it is not functional error but complying with PEP8 standard is recommended
-def python_basics():
+def python_basics_bool():
   """Let's write some stuff regarding boolean data types.
   Operations that we can perform on Booleans are AND, OR and NOT. These are logical operators.
   We can also check whether bool is sub class of int.
@@ -20,4 +20,12 @@ def python_basics():
   print("We are done with Boolean operations, change this file to add few more if you know")
 
 
-python_basics()
+def python_basics_int():
+  """Below are common methods that you can apply on integers.
+  """
+  # Let's define 2 variables
+  num1, num2 = 6, 9
+  print(f"Sum of given is: {num1 + num2}")
+  
+
+python_basics_bool()
